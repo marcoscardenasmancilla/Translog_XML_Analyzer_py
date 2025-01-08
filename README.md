@@ -9,7 +9,7 @@
 # Este script de Python analiza datos de tiempo de respuesta (RT) extraídos de archivos XML que fueron generados en Translog II (versión 2.0) (Carl, 2012). 
 # El código procesa múltiples archivos XML para el análisis comparativo de RTs entre diferentes grupos de variables intrasujeto e intratarea y sus interacciones.
 # Características del pipeline metodológico:
-# 1. extracción información sobre participantes, niveles de experiencia, texto de la tarea de traducción, tipo de evento y acciones realizadas.
+# 1. extracción de información sobre participantes, niveles de experiencia, texto de la tarea de traducción, tipo de evento y acciones realizadas.
 # 2. cálculo de los tiempos de respuesta (RT) como la diferencia entre eventos consecutivos.
 ![RTeventos](https://github.com/user-attachments/assets/02e5f99e-dfcb-4283-85ee-85a305fbf942)
 # 3. análisis estadísticos automatizados i.e., pruebas de normalidad (Shapiro-Wilk y D’Agostino-Pearson), Kruskal-Wallis para comparar grupos, y Dunn's post-hoc para comparaciones por pares.
