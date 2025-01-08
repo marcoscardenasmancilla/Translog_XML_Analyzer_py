@@ -1,11 +1,11 @@
-# Translog_XML_Analyzer_py
+# Translog_XML_Analyzer_PY
 # Author                    : Dr. Marcos H. Cárdenas Mancilla
 # E-mail                    : marcos.cardenas.m@usach.cl
 # Date of creation          : 2024-11-16
 # Licence                   : AGPL V3
 # Copyright (c) 2024 Marcos H. Cárdenas Mancilla.
 
-# Descripción de Translog_XML_Analyzer_py:
+# Descripción de Translog_XML_Analyzer_PY:
 # Este script de Python analiza datos de tiempo de respuesta (RT) extraídos de archivos XML que fueron generados Translog II (versión 2.0) (Carl, 2012). 
 # El código procesa múltiples archivos XML para el análisis comparativo de RTs entre diferentes grupos de variables intrasujeto e intratarea y sus interacciones.
 # Características del pipeline metodologógico:
