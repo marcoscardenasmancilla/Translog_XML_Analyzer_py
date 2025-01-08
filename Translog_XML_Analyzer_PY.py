@@ -194,7 +194,7 @@ metadata_table = pd.DataFrame({
     "Variable": ["participant", "experience", "text", "time", "type", "action", "value", "pause", "rt"],
     "Description": [
         "Name of the participant extracted from the file label.",
-        "Experience level or type, either 'lat' or 'pei'.",
+        "Experience level or type, either 'Exp_1' or 'Exp_0'.",
         "The text associated with the task (e.g., 'A', 'B', or 'C').",
         "Time of the event in milliseconds.",
         "Type of event recorded. Sublevels include: 'key' (keyboard events) and 'mouse' (mouse events).",
