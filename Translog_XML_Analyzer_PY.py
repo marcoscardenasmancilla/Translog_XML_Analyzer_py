@@ -503,8 +503,6 @@ print("\nKruskal-Wallis Test Summary:")
 print(f"Statistic: {kw_stat:.4f}, p-value: {kw_p_value:.4f}")
 print("Significant Interaction Effect" if kw_p_value < 0.05 else "No Significant Interaction Effect")
 
-from scikit_posthocs import posthoc_dunn
-
 # Perform Dunn's test for pairwise comparisons within experience groups
 contrasts_experience_text = []
 for exp in df['experience'].unique():
