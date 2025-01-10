@@ -1,12 +1,12 @@
-# ==================================================================================================================================================
+# ===============================================================================================================================================================
 # Author                    : Dr. Marcos H. Cárdenas Mancilla
 # E-mail                    : marcos.cardenas.m@usach.cl
 # Date of creation          : 2024-11-16
 # Licence                   : AGPL V3
 # Copyright (c) 2024 Marcos H. Cárdenas Mancilla.
-# ==================================================================================================================================================
+# ===============================================================================================================================================================
 # Descripción de Translog_XML_Analyzer_PY:
-# Este script de Python analiza datos de tiempo de respuesta (RT) extraídos de archivos XML que fueron generados Translog II (versión 2.0) (Carl, 2012). 
+# Este código Python analiza datos de tiempo de respuesta (RT) extraídos de archivos XML que fueron generados Translog II (versión 2.0) (Carl, 2012). 
 # El código procesa múltiples archivos XML para el análisis comparativo de RTs entre diferentes grupos de variables intrasujeto e intratarea y sus interacciones.
 # Características del pipeline metodologógico:
 # 1. extracción información sobre participantes, niveles de experiencia, texto de la tarea de traducción, tipo de evento y acciones realizadas.
@@ -16,7 +16,7 @@
 # 4. visualización del resultados del análisis descriptivo (p. ej. tablas, barras, boxplots, mapas de calor).
 # 5. cálculo de tamaños de efecto a partir del análisis inferencial (p. ej. correlación biserial de rango) para determinar los efectos significativos
 # que permitan comprender las relaciones entre RT y las variables independientes (p. ej. experiencia en traducción, tipo de acción y texto).
-# ==================================================================================================================================================
+# ===============================================================================================================================================================
 
 # Load libraries
 import os
@@ -31,8 +31,6 @@ from scipy.stats import boxcox
 from scipy.stats import kruskal
 from scikit_posthocs import posthoc_dunn
 from scipy.stats import mannwhitneyu
-import seaborn as sns
-import matplotlib.pyplot as plt
 import glob
 import warnings
 
@@ -550,8 +548,6 @@ for exp, contrast in contrasts_experience_text:
 for txt, contrast in contrasts_text_experience:
     print(f"\nContrasts for Text = {txt} across Experience levels:")
     print(contrast.to_string())
-
-
 
 # Function to calculate effect size (Cohen's d or rank-biserial correlation)
 def calculate_effect_size(group1, group2):
