@@ -6,7 +6,7 @@
 # Copyright (c) 2024 Marcos H. Cárdenas Mancilla.
 # ===============================================================================================================================================================
 # Descripción de Translog_XML_Analyzer_PY:
-# Este código Python analiza datos de tiempo de respuesta (RT) extraídos de archivos XML que fueron generados Translog II (versión 2.0) (Carl, 2012). 
+# Este código Python analiza datos de tiempo de respuesta (RT) extraídos de archivos XML que fueron generados en Translog II (versión 2.0) (Carl, 2012). 
 # El código procesa múltiples archivos XML para el análisis comparativo de RTs entre diferentes grupos de variables intrasujeto e intratarea y sus interacciones.
 # Características del pipeline metodologógico:
 # 1. extracción información sobre participantes, niveles de experiencia, texto de la tarea de traducción, tipo de evento y acciones realizadas.
